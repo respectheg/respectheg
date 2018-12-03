@@ -61,6 +61,65 @@ h5.byGFV {
   width: 50%; 
 }
 
+.digital {
+  position: relative; 
+  width: 50%;
+}
+
+.layouts {
+  position: relative;
+  width: 50%; 
+}
+
+#imagedigital {
+  display: block;
+  width: 160%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+  height: auto;
+  margin-left: 80px;
+}
+
+#imagelayouts {
+  display: block;
+  width: 160%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+  height: auto;
+}
+
+#overlaydigital {
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  height: auto; 
+  width: 100%;
+  display: block;
+  opacity: 0;
+  transition: .5s ease; 
+  margin-left: 120px;
+}
+
+#overlaylayouts {
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  height: auto; 
+  width: 110%;
+  display: block;
+  opacity: 0;
+  transition: .5s ease; 
+  margin-left: 120px;
+}
+
 .image {
   display: block;
   width: 160%;
@@ -70,7 +129,7 @@ h5.byGFV {
   left: 0; 
   right: 0; 
   height: auto;
-  margin-left: 255px;
+  margin-left: 410px;
 }
 
 .overlay {
@@ -84,11 +143,19 @@ h5.byGFV {
   display: block;
   opacity: 0;
   transition: .5s ease; 
-  margin-left: 135px;
+  margin-left: 175px;
 }
 
 .sketchbooktag:hover .overlay {
   opacity: 1; 
+}
+
+.digital:hover #overlaydigital {
+  opacity: 1; 
+}
+
+.layouts:hover #overlaylayouts {
+  opacity: 1;
 }
   
 
@@ -119,7 +186,7 @@ a:hover {
   font-size: 300px;
   font-family: "Times New Roman";
   line-height: 0.5;
-  padding-left: 300px;
+  padding-left: 400px;
   
   }
   
@@ -127,7 +194,6 @@ a:hover {
   font-size: 300px;
   font-family: "Double Feature";
   line-height: 0.5;
-  
   }
   
 .sketchbook {
