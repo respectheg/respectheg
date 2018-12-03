@@ -36,6 +36,60 @@ h5.byGFV {
   letter-spacing: 0.275em;
   }
   
+/* 
+.sketchbookpage {
+ width: 120%;
+ position: relative; 
+ display: inline-block;
+ }
+
+.sketchbookpage .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99; 
+}
+  
+.sketchbookpage:hover .img-top {
+  display: inline;
+}
+ */
+
+.sketchbooktag {
+  position: relative; 
+  width: 50%; 
+}
+
+.image {
+  display: block;
+  width: 160%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+  height: auto;
+  margin-left: 255px;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  height: auto; 
+  width: 128%;
+  display: block;
+  opacity: 0;
+  transition: .5s ease; 
+  margin-left: 135px;
+}
+
+.sketchbooktag:hover .overlay {
+  opacity: 1; 
+}
   
 
 
@@ -105,13 +159,16 @@ a:hover {
   color: blue;
 }
 
+/* 
 .sketchbook a:hover {
   color: ffd31a; 
 }
+ */
 
 .photography a:hover {
   color: red; 
 }
+
 
 
 
