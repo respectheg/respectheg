@@ -1,0 +1,135 @@
+h5.about {
+  display: inline-block;
+  font-family: "Courier New";
+  font-size: 30px;
+  padding-right: 100px;
+  }
+  
+h5.CV {
+  display: inline-block; margin-right: 10px;
+  font-family: "Courier New"; 
+  font-size: 30px;
+  padding-left: 100px;
+  
+  }
+  
+h5.about, h5.CV {
+  padding-bottom: 10px;
+  
+  }
+
+
+.respectheg {
+  font-size: 4em;
+  text-align: right; 
+  font-family: "Courier New";
+  line-height: 0.5;
+  padding: 0px 0px 0px;
+  background-color: ffd31a;
+   
+  }
+  
+h5.byGFV {
+  font-size: 2.1em;
+  text-align: right; 
+  font-family: "Courier New";
+  letter-spacing: 0.275em;
+  }
+  
+  
+
+
+/* this is a comment */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+  }
+  
+
+.layouts {
+  font-size: 25em; 
+  font-family: "Old London";
+  line-height: 0.5;
+  padding-top: 0px; 
+  padding-left: 300px;
+  padding-bottom: 0px;
+  
+  }
+  
+.writings {
+  font-size: 300px;
+  font-family: "Times New Roman";
+  line-height: 0.5;
+  padding-left: 300px;
+  
+  }
+  
+.digital {
+  font-size: 300px;
+  font-family: "Double Feature";
+  line-height: 0.5;
+  
+  }
+  
+.sketchbook {
+  font-size: 15em;
+  font-family: "Lost Saloon";
+  line-height: 0.5;
+
+  }
+
+.photography {
+  font-size: 11em; 
+  font-family: "Arial Black";
+  line-height: 0.5; 
+  
+  }
+
+
+/* hover  */
+.layouts a:hover { 
+  color: red; 
+}
+
+.writings a:hover {
+  color: green; 
+  
+}
+
+.digital a:hover {
+  color: blue;
+}
+
+.sketchbook a:hover {
+  color: ffd31a; 
+}
+
+.photography a:hover {
+  color: red; 
+}
+
+
+
+
+
+
+
+
+.digital
+
+.writings, .digital, .sketchbook, .photography {
+  padding: 100px 300px 0px 300px;
+
+  }
+
+.about, .CV {
+  padding: 200px;
+  
+  }
+  
+

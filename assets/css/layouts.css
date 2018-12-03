@@ -1,0 +1,95 @@
+.respectheg {
+  font-size: 3em;
+  text-align: right; 
+  font-family: "Courier New";
+  line-height: 0.5;
+  padding: 0px 0px 0px;
+  background-color: ffd31a;
+  padding-top: 100px;
+  }
+  
+#Layouts {
+  font-family: "Old London"; 
+  font-size: 20em; 
+  text-align: center;
+  }
+  
+a {
+  color: black;
+  text-decoration: none;
+  }
+  
+/* layouts begin */
+
+#localexpert {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 1000px;
+  margin-left: 19%;
+  padding-top: 0%;
+}
+
+.layouttitle {
+  font-size: 2em;
+  text-align: right; 
+  font-family: "courier new";
+  padding-right: 325px;
+  padding-top: 100px;
+}
+
+.layoutdescription {
+  font-size: 0.9em; 
+  text-align: right; 
+  font-family: "Courier";
+  padding-right: 325px;
+  margin-left: 50%;  
+}
+
+/* Milwaukee Zine  */
+#layouttitlemke {
+  font-size: 2em;
+  text-align: right; 
+  font-family: "courier new";
+  padding-left: 1025px;
+  padding-top: 0px;
+  display: inline-block; margin-left: 2px;
+}
+
+#layoutdescriptionmke {
+  font-size: 0.9em; 
+  text-align: right; 
+  font-family: "Courier";
+  padding-right: 325px;
+  padding-left: 800px;
+  display: inline-block; margin-left: 2px;
+}
+
+#mkecover {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  width: 500px;
+  padding-left: 550px;
+}
+
+#theeastside, #mytime, #lakepark, #southside, #bayview, #harborview, #acceptingfamiliarity {
+  display: flex;
+  flex-direction: column;
+  align-items: right; 
+  width: 1000px;
+  margin-left: 19%;
+  padding-top: 20px;
+}
+
+/* DISH 2018 */
+
+.dishimg {
+  display: flex;
+  flex-direction: column;
+  align-items: right; 
+  width: 1000px;
+  margin-left: 19%;
+  padding-top: 20px;
+}
+
